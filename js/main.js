@@ -10,7 +10,7 @@ function writeCss(prefix,code,fn){
             window.clearInterval(id)
             fn && fn.call()
         }
-    },1)
+    },70)
 }
 
 function writeMarkdown(markdown,fn){
