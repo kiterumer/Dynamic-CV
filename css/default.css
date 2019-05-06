@@ -1,0 +1,51 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.token.selector,
+.token.property,
+.token.function{
+    color:#000;
+}
+
+#code-wrapper{
+    padding: 16px;
+    height: 100vh;
+    display: flex;
+}
+
+#code{
+    width: 100%;
+    overflow: hidden;
+}
+
+#paper{
+    padding: 16px;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#paper > .content{
+    width: 100%;
+    height: 100%;
+    padding-left: 16px;
+    overflow: hidden;
+    background: #fff;
+    display: none;
+    box-shadow: 0 0 3px rgba(0,0,0,.4)
+}
+
+#paper > .html{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    overflow: auto;
+    box-shadow: 0 0 3px rgba(0,0,0,.4)
+}
+
