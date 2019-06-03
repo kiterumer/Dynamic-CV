@@ -2,6 +2,10 @@
     margin: 0;padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    background: #dbe2ef;
+}
 
 .token.selector,
 .token.property,
@@ -18,6 +22,7 @@
 #code{
     width: 100%;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 #paper{
@@ -37,7 +42,7 @@
     overflow: hidden;
     background: #fff;
     display: none;
-    box-shadow: 0 0 3px rgba(0,0,0,.4)
+    box-shadow: 0 0 6px rgba(0,0,0,.4)
 }
 
 #paper > .html{
@@ -46,6 +51,7 @@
     height: 100%;
     padding: 16px;
     overflow: auto;
-    box-shadow: 0 0 3px rgba(0,0,0,.4)
+    box-shadow: 0 0 6px rgba(0,0,0,.4);
+    border-radius: 8px;
 }
 

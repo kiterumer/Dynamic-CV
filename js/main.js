@@ -10,7 +10,7 @@ function writeCss(prefix,code,fn){
             window.clearInterval(id)
             fn && fn.call()
         }
-    },70)
+    },30)
 }
 
 function writeMarkdown(markdown,fn){
@@ -29,8 +29,8 @@ function writeMarkdown(markdown,fn){
 
 var css1 = `
 /*
-*面试官你好，我是尹洋洋
-*我来做下自我介绍
+*面试官你好呀，我是尹洋洋，来应聘贵公司的前端职位
+*我来做下自我介绍^_^
 *首先准备一些样式 
 */
 
@@ -80,28 +80,30 @@ var css2 = `
 var md = `
 ## 自我介绍
 
-我叫尹洋洋,
-1995年10月出生,
+- 我叫尹洋洋,
+1995年10月出生,来自湖北孝感。
 2018年7月郑州大学本科毕业,
-专业是地理信息科学
+专业学的地理信息科学。
+- 自学的前端，之前在一家小公司打过几个月杂，写写静态页面，调下后台接口。
 
 ## 技能介绍
 
-熟悉 HTML,CSS,JavaScript,Ajax,ES6;
-熟悉 Vue框架;
-熟悉 HTTP;
-了解 Webpack,Canvas,Git
+- 熟悉HTML5,CSS3,JavaScript,Ajax,ES6;
+- 熟悉Vue框架，理解组件之间通信，响应式原理;了解一点React,近期在学；
+- 熟悉HTTP相关计算机网络知识;了解一些Web性能优化方案；
+- 了解Webpack,Canvas,Git
 
 ## 项目介绍
-1. 博客发布分享平台 (Vue)
-2. 自制Vue UI框架
-3. Canvas 画板
+1. [博客发布分享平台](https://kiterumer.github.io/share-blog-preview/)
+2. [自制Vue UI框架](https://kiterumer.github.io/Vue-UI/)
+3. [Canvas 画板](https://kiterumer.github.io/canvas-demo/)
+4. [键盘侠导航](https://kiterumer.github.io/nav-demo/)
 
 ## 联系方式
 
-- Tel 18203677022
-- Wechat 18203677022
-- Email 1404646092@qq.com
+- Tel: 18203677022
+- Wechat: 18203677022
+- Email: yin_yangyang@foxmail.com
 `
 
 var css3 = `
