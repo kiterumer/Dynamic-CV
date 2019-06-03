@@ -37,8 +37,9 @@ var css1 = `
 *{
     transition:all 1s;
 }
-html{
-    background:#eee;
+body{
+    height: 100vh;
+    background: #dbe2ef;
 }
 #code{
     border:1px solid #aaa;
